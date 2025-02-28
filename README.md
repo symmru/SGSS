@@ -18,6 +18,9 @@ We use [H2O](https://h2o.examp1e.net/) as our server. Follow the instructions an
 ### Gurobi
 Make sure you have Gurobi correctly installed in your work path with a valid [Gurobi License](https://www.gurobi.com/solutions/licensing/).
 
+## 3DGS scenes
+We use 12 pre-trained 3DGS scenes from the original 3DGS. You can download the pre-trained models from [Pre-trained Models (14 GB)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/datasets/pretrained/models.zip). The pre-trained files will be stored in `scene/point_cloud/iteration_30000/point_cloud.ply`.
+
 ## Optimal Spatial Partitioning 
 ### Basic Spatial Partitioning 
 Before generating streaming cuboids, we need to get basic cuboids first. Run [pre_processing/voxel_gaussian.py](./pre_processing/voxel_gaussian.py)
