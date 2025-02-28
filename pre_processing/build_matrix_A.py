@@ -57,7 +57,7 @@ def build_matrixA(nx,ny,nz,xyz):
     boundy = ny
     boundz = nz
     voxel_dict = basic_voxel_cost(nx, ny, nz, xyz)
-    print(voxel_dict)
+    #print(voxel_dict)
     num = calculate_subvoxel(nx,ny,nz)
     matrixA = np.zeros(shape=(nx*ny*nz,num))
     C_cost = np.zeros(shape=(num,1))
