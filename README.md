@@ -94,7 +94,7 @@ python streaming_cuboids.py [OPTIONS]
 | Argument          | Type   | Required                          | Default    | Description                                          |
 |-------------------|--------|-----------------------------------|------------|------------------------------------------------------|
 | `--ply_file_path` | str    | Required if `mode='full'`         | None       | Path to the PLY file.                                |
-| `--method`        | str    | Yes                               | None       | Method to process the PLY file:` 'anti'`,`wo`,`wois` |
+| `--method`        | str    | Yes                               | None       | Method to process the PLY file:`anti`,`wo`,`wois`,`sgss`|
 | `--output_folder` | str    | Yes                               | None       | Output folder for results.                           |
 | `--scene_name`    | str    | Required if `mode='full'`         | None       | Scene name for the output.                           |
 | `--sh_degree`     | int    | No                                | `0`        | SH degree (default: 0).                              |
