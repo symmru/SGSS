@@ -108,19 +108,19 @@ Please put all the streamable files in the folder of h2o/examples/doc_root/asses
 h2o/
 └── examples/
     └── doc_root/
+        ├── [JavaScript files]
+        ├── index.html
         ├── assets/
-        │   ├── [JavaScript files]
-        │   └── index.html
-        ├── data/
-        │   ├── scene_names/
-        │   │   ├── limit_camera_trace.json (Generated from experiment)
-        │   │   ├── smooth_camera_trace.json (Generated from experiment)
-        │   │   ├── [Other streamable files]
-        │   └── optimal_voxels/
-        │       ├── 1.ply
-        │       ├── ...
-        │       ├── voxel_id.ply
-        │       └── voxel_new.json
+            └── data/
+                └── [scene_name folders]/
+                    ├── limit_camera_trace.json (Generated from experiment)
+                    ├── smooth_camera_trace.json (Generated from experiment)
+                    ├── [Other streamable files]
+                    └── optimal_voxels/
+                        ├── 1.ply
+                        ├── ...
+                        ├── voxel_id.ply
+                        └── voxel_new.json
 
 ```
 | File Name           | Description                                         |
