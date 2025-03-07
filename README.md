@@ -121,7 +121,6 @@ h2o/
                         ├── ...
                         ├── voxel_id.ply
                         └── voxel_new.json
-
 ```
 | File Name           | Description                                         |
 |---------------------|-----------------------------------------------------|
@@ -159,6 +158,9 @@ if(camera.is_key_frame){
    saveCanvasAsPNG(canvas, scene_name+'_our_200_' + camera.img_name)
 }
 ```
+
+## Sample folder
+You can also download the sample folder of `bonsai` [here](https://drive.google.com/file/d/14IJRYtdAlCQeiOGlssuPkP5M-xcoj9VV/view?usp=sharing). This folder contains the output from each step. 
 ## Bibtex
 Please reference the following publication when using this repository. 
 ```
