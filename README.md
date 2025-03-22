@@ -13,7 +13,7 @@ In this paper, we propose a streaming approach, SGSS, for optimizing the streami
 Please follow [3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://github.com/graphdeco-inria/gaussian-splatting) for environment requirements.
 
 ### Server 
-We use [H2O](https://h2o.examp1e.net/) as our server. Follow the instructions and set up your own server. 
+We use [H2O](https://h2o.examp1e.net/) as our server. Follow the instructions and set up your own server. You can install it from the [installation page](https://h2o.examp1e.net/install.html).
 
 ### Gurobi
 Make sure you have Gurobi correctly installed in your work path with a valid [Gurobi License](https://www.gurobi.com/solutions/licensing/).
@@ -160,7 +160,9 @@ if(camera.is_key_frame){
 ```
 
 ## Sample folder
-You can also download the sample folder of `bonsai` [here](https://drive.google.com/file/d/14IJRYtdAlCQeiOGlssuPkP5M-xcoj9VV/view?usp=sharing). This folder contains the output from each step. 
+You can download the sample folder of h2o [here](https://rutgers.box.com/s/6qcq3f0nui2zhd82kfg32k75ztqp9naf). This folder contains the h2o server config and streamable files of `bonsai`. You can start the server and try the web viewer.
+
+You can also access the step results of `bonsai` [here](https://drive.google.com/file/d/14IJRYtdAlCQeiOGlssuPkP5M-xcoj9VV/view?usp=sharing). This folder contains the output from each step. 
 ## Bibtex
 Please reference the following publication when using this repository. 
 ```
