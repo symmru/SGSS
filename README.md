@@ -160,7 +160,8 @@ if(camera.is_key_frame){
 ```
 
 ## Sample folder
-You can download the sample folder of h2o [here](https://rutgers.box.com/s/6qcq3f0nui2zhd82kfg32k75ztqp9naf). This folder contains the h2o server config and streamable files of `bonsai`. You can start the server and try the web viewer.
+You can download the sample folder of h2o [here](https://rutgers.box.com/s/6qcq3f0nui2zhd82kfg32k75ztqp9naf). This folder contains the h2o server config and streamable files of `bonsai`. You can start the server and try the web viewer.The basic partitioning files are in the `voxel_new` folder, and the optimized partitioning files are in the `voxel_ilp` folder.
+
 
 You can also access the step results of `bonsai` [here](https://drive.google.com/file/d/14IJRYtdAlCQeiOGlssuPkP5M-xcoj9VV/view?usp=sharing). This folder contains the output from each step. 
 ## Bibtex
