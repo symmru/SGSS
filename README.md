@@ -137,7 +137,7 @@ Then start the H2O server.
 /usr/local/bin/h2o -c path/to/h2o/examples/h2o/h2o.conf
 ```
 
-Choose a method that you want to try (see table above). Then change `line  239 <script src="wo.js"></script>` to the corresponding JavaScript file.
+Choose a method that you want to try (see table above). Then change `line  239 <script src="wo.js"></script>` to the corresponding JavaScript file in [index.html](./index.html).
 Go to the JavaScript file, if you choose 'anti', 'full_down' or 'wo', please change variables in `line 618 & 619 & 625` to your path. Otherwise, make sure you change twos variable `scene_name` and `root` in function `url_worker()`, and variables `cam_url`, `voxel_url` and `scene_name` in the `main` function to your own server and folder settings. Then, go to
 ```commandline
 https://localhost:port/index.html
