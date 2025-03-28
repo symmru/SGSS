@@ -167,11 +167,21 @@ You can also access the step results of `bonsai` [here](https://drive.google.com
 ## Bibtex
 Please reference the following publication when using this repository. 
 ```
-@inproceedings{zhu2025sgss,
-  title={SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes},
-  author={Zhu, Mufeng and Liu, Mingju and Yu, Cunxi and Hsu, Cheng-Hsin and Liu, Yao},
-  booktitle={Proceedings of the 16th Conference on ACM Multimedia Systems},
-  year={2025}
+@inproceedings{10.1145/3712676.3714437,
+author = {Zhu, Mufeng and Liu, Mingju and Yu, Cunxi and Hsu, Cheng-Hsin and Liu, Yao},
+title = {SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes},
+year = {2025},
+isbn = {9798400714672},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3712676.3714437},
+doi = {10.1145/3712676.3714437},
+booktitle = {Proceedings of the 16th ACM Multimedia Systems Conference},
+pages = {46–56},
+numpages = {11},
+keywords = {3D gaussian splatting, view-adaptive streaming, visual quality},
+location = {Stellenbosch, South Africa},
+series = {MMSys '25}
 }
 ```
 
