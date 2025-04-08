@@ -1,4 +1,4 @@
-# SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes
+# [SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes](https://dl.acm.org/doi/abs/10.1145/3712676.3714437)
 
 3D Gaussian Splatting (3DGS) is an emerging approach for training and representing real-world 3D scenes. Due to its photorealistic novel view synthesis and fast rendering speed (e.g., over 100 FPS), it has the potential to transform how scenes that can be explored in 6 degrees-of-freedom (6-DoF) are represented. However, a limiting factor of 3DGS is its large size, e.g., over 1 GBytes for one static scene. This inhibits its use for streaming of reconstructed real-world 3D scenes, due to the high network bandwidth requirement.
 
@@ -29,7 +29,7 @@ python voxel_gaussian.py --ply_file_path path/to/3dgs_scene.ply --output_folder 
 ```
 
 ### Optimization
-To generate matrix A and $$C_{num}$$ and $$C_{num'}$$ mentioned in the paper 3.2, which will be used in ILP, run [pre_processing/build_matrix_A.py](./pre_processing/build_matrix_A.py)
+To generate matrix A and $$C_{num}$$ and $$C_{num'}$$ mentioned in the paper Section 3.2, which will be used in ILP, run [pre_processing/build_matrix_A.py](./pre_processing/build_matrix_A.py)
 ```
 python build_matrix_A.py --ply_file_path path/to/3dgs_scene.ply --output_folder path/to/matrices --scene_name scene
 ```
@@ -167,21 +167,12 @@ You can also access the step results of `bonsai` [here](https://drive.google.com
 ## Bibtex
 Please reference the following publication when using this repository. 
 ```
-@inproceedings{10.1145/3712676.3714437,
-author = {Zhu, Mufeng and Liu, Mingju and Yu, Cunxi and Hsu, Cheng-Hsin and Liu, Yao},
-title = {SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes},
-year = {2025},
-isbn = {9798400714672},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3712676.3714437},
-doi = {10.1145/3712676.3714437},
-booktitle = {Proceedings of the 16th ACM Multimedia Systems Conference},
-pages = {46–56},
-numpages = {11},
-keywords = {3D gaussian splatting, view-adaptive streaming, visual quality},
-location = {Stellenbosch, South Africa},
-series = {MMSys '25}
+@inproceedings{zhu2025sgss,
+  title={SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes},
+  author={Zhu, Mufeng and Liu, Mingju and Yu, Cunxi and Hsu, Cheng-Hsin and Liu, Yao},
+  booktitle={Proceedings of the 16th ACM Multimedia Systems Conference},
+  pages={46--56},
+  year={2025}
 }
 ```
 
