@@ -1,4 +1,15 @@
-# [SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes](https://dl.acm.org/doi/abs/10.1145/3712676.3714437)
+# SGSS: Streaming 6-DoF Navigation of Gaussian Splat Scenes
+<h3 style="font-size: 18px; margin-bottom: 20px;">
+Mufeng Zhu, Mingju Liu, Cunxi Yu, Cheng-Hsin Hsu, Yao Liu
+</h3>
+
+<div align="left">
+  <h2>
+    <a href="https://dl.acm.org/doi/pdf/10.1145/3712676.3714437">📄 Paper</a> |
+    <a href="https://mobgs.org/stump.html">🚀 Demo</a>
+  </h2>
+</div>
+
 
 3D Gaussian Splatting (3DGS) is an emerging approach for training and representing real-world 3D scenes. Due to its photorealistic novel view synthesis and fast rendering speed (e.g., over 100 FPS), it has the potential to transform how scenes that can be explored in 6 degrees-of-freedom (6-DoF) are represented. However, a limiting factor of 3DGS is its large size, e.g., over 1 GBytes for one static scene. This inhibits its use for streaming of reconstructed real-world 3D scenes, due to the high network bandwidth requirement.
 
